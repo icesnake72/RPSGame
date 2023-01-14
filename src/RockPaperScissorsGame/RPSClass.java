@@ -16,7 +16,7 @@ class RPSClass {
         System.out.println("컴퓨터는 준비가 됐습니다. 이제 당신 차례입니다.");
     }
 
-    public void PrintOut() {
+    public void GetHint() {
         if (comsVal == 0) {
             System.out.println("컴퓨터는 주먹을 냈습니다.");
         } else if (comsVal == 1) {

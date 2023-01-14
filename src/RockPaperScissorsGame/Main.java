@@ -16,7 +16,8 @@ public class Main {
         do
         {
             RPSClass ComRPC = new RPSClass();
-            ComRPC.PrintOut();
+            ComRPC.GetHint();
+
             System.out.println("당신의 선택은?");
 
             byte nUsers = 0;
